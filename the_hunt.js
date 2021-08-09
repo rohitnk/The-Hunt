@@ -1,7 +1,7 @@
 let tar = document.getElementById("target");
 let score = 0;
 manualSetTime = 20;
-nextStepTime = 1000; //in millisecond
+nextStepTime = 3000; //in millisecond
 function randomX() {
   let a = Math.floor(Math.random() * (500 - 80));
   return a + "px";
