@@ -10,6 +10,7 @@ function randomY() {
   let a = Math.floor(Math.random() * (500 - 80));
   return a + "px";
 }
+
 function nextStep() {
   if (flag == false) return;
   tar.style.marginTop = randomX();
